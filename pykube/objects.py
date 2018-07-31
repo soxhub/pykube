@@ -347,21 +347,21 @@ class PetSet(NamespacedAPIObject):
 
 class Role(NamespacedAPIObject):
 
-    version = "rbac.authorization.k8s.io/v1alpha1"
+    version = "rbac.authorization.k8s.io/v1"
     endpoint = "roles"
     kind = "Role"
 
 
 class RoleBinding(NamespacedAPIObject):
 
-    version = "rbac.authorization.k8s.io/v1alpha1"
+    version = "rbac.authorization.k8s.io/v1"
     endpoint = "rolebindings"
     kind = "RoleBinding"
 
 
 class ClusterRole(APIObject):
 
-    version = "rbac.authorization.k8s.io/v1alpha1"
+    version = "rbac.authorization.k8s.io/v1"
     endpoint = "clusterroles"
     kind = "ClusterRole"
 
