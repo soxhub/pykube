@@ -368,6 +368,6 @@ class ClusterRole(APIObject):
 
 class ClusterRoleBinding(APIObject):
 
-    version = "v1"
+    version = "rbac.authorization.k8s.io/v1"
     endpoint = "clusterrolebindings"
     kind = "ClusterRoleBinding"
